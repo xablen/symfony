@@ -1,0 +1,6 @@
+73d086,127.0.0.1,GET,http://127.0.0.1/Symfony/web/app_dev.php/pagequinexistepas,1458898700,f1dd24,200
+f1dd24,127.0.0.1,GET,http://127.0.0.1/Symfony/web/app_dev.php/pagequinexistepas,1458898700,,404
+90f7ac,127.0.0.1,GET,http://127.0.0.1/Symfony/web/app_dev.php/pagequinexistepas,1458898984,d7de1a,200
+d7de1a,127.0.0.1,GET,http://127.0.0.1/Symfony/web/app_dev.php/pagequinexistepas,1458898984,,404
+b9e412,127.0.0.1,GET,http://127.0.0.1/Symfony/web/app_dev.php/,1458898985,f58c2e,200
+f58c2e,127.0.0.1,GET,http://127.0.0.1/Symfony/web/app_dev.php/,1458898985,,500
