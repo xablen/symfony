@@ -4,15 +4,17 @@
 
 namespace OC\PlatformBundle\Controller;
 
-// N'oubliez pas ce use :
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
 class AdvertController extends Controller
 {
-  public function indexAction()
-  {
-    $content = $this->get('templating')->render('OCPlatformBundle:Advert:index.html.twig');
-    return new Response($content);
-  }
+    // On récupère tous les paramètres en arguments de la méthode
+    public function viewSlugAction($slug, $year, $_format)
+    {
+        return new Response(
+            "On pourrait afficher l'annonce correspondant au
+            slug '".$slug."', créée en ".$year." et au format ".$_format."."
+        );
+    }
 }
